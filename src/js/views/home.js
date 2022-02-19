@@ -1,15 +1,16 @@
-import React from "react";
-import rigoImage from "../../img/rigo-baby.jpg";
-import "../../styles/home.css";
+import React from 'react'
 
-export const Home = () => (
-	<div className="text-center mt-5">
-		<h1>Hello Rigo!</h1>
-		<p>
-			<img src={rigoImage} />
-		</p>
-		<a href="#" className="btn btn-success">
-			If you see this green button, bootstrap is working
-		</a>
-	</div>
-);
+const Home = () => {
+	return (
+		<div> 
+			<div
+				className="container pt-3 text-center"
+			>
+				<p className="fs-1 fw-bold"> Star Wars.</p>
+				<p className="fs-3">Reading Blog List</p>
+			</div>
+		</div>
+	)
+}
+
+export default Home
